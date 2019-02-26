@@ -1,0 +1,17 @@
+https://developers.google.com/web/fundamentals/performance/http2/
+
+https://www.nginx.com/blog/introduction-to-microservices/
+
+https://blog.gopheracademy.com/advent-2017/go-grpc-beyond-basics/
+
+
+Rob Pike
+https://commandcenter.blogspot.com/2014/01/self-referential-functions-and-design.html
+
+
+Dave Cheney
+https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis
+
+Packages 
+https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
+
