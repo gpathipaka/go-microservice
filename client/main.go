@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	addres          = "localhost:8080"
+	addres          = "localhost:9000"
 	defaultFilename = "consignment.json"
 )
 
@@ -31,6 +31,7 @@ func createConsignment(client pb.ShippingServiceClient, cons *pb.Consignment) {
 	res, err := client.CreateConsignment(context.Background(), cons)
 	if err != nil {
 		log.Printf("Could not Gree.. %v", err)
+		return
 	}
 	log.Println("Consignment has been created....", res.Created)
 }
@@ -61,6 +62,6 @@ func main() {
 	}
 	createConsignment(client, cons)
 
-	getAllConsignments(client)
+	//getAllConsignments(client)
 	log.Println("Client about to go down...")
 }
